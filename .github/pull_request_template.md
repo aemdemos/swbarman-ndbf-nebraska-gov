@@ -4,4 +4,4 @@ Fix #<gh-issue-id>
 
 Test URLs:
 - Before: https://main--swbarman-ndbf-nebraska-gov--aemdemos.aem.live/
-- After: https://<branch>--swbarman-ndbf-nebraska-gov--aemdemos.aem.live/
+- After: https://main--swbarman-ndbf-nebraska-gov--aemdemos.aem.live/
