@@ -19,7 +19,11 @@
 }
 
 .ai-banner h3 {
-  font-size: 24px; /* adjust font size as needed */
+  font-size: 36px; /* adjust font size as needed */
   color: #606060; /* slightly lighter gray color */
-  font-weight: 300; /* use light font weight */
+  font-weight: 100; /* adjust font weight as needed */
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
