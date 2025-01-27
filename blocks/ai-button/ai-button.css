@@ -1,0 +1,49 @@
+
+.ai-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure it takes full viewport height */
+    background-color: #eaf0f4; /* Light grey/blue background */
+    padding: 0; /* No padding around the block */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.ai-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.ai-button > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Ensure child elements are centered horizontally */
+    width: 100%;
+}
+
+.ai-button h4 {
+    display: none; /* Hide the heading */
+}
+
+.ai-button .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ai-button .button-container .button {
+    background-color: #005f73; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjusted padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    text-decoration: none; /* Remove underline from link */
+}

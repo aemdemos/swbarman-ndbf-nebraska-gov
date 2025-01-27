@@ -1,0 +1,53 @@
+
+.ai-notices-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ai-notices.block {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  background-color: #ffffff;
+}
+
+.ai-notices.block > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-notices.block h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: normal; /* Adjusted to normal font weight */
+  margin-bottom: 20px;
+}
+
+.ai-notices.block p {
+  margin: 15px 0; /* Increased vertical spacing between items */
+}
+
+.ai-notices.block p a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: normal; /* Ensure links are not bold */
+}
+
+.ai-notices.block .button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.ai-notices.block .button {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9em;
+  background: none;
+  border: none;
+  padding: 0;
+  font-weight: normal; /* Ensure the footer link is not bold */
+}

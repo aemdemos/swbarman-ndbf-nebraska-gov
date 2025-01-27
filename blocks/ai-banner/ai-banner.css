@@ -1,0 +1,25 @@
+
+.ai-banner-wrapper {
+  width: 100%;
+}
+
+.ai-banner {
+  background-color: #c0d8e4; /* light blue color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* adjust height to match original more closely */
+}
+
+.ai-banner > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ai-banner h3 {
+  font-size: 24px; /* adjust font size as needed */
+  color: #606060; /* slightly lighter gray color */
+  font-weight: 300; /* use light font weight */
+}
