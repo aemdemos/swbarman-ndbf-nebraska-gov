@@ -1,19 +1,24 @@
 
-/* Ensure the columns block spans the entire width */
-.ai-columns-container > .ai-columns-wrapper {
-  max-width: unset;
-  padding: 0;
-  margin: 0;
+.ai-columns-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-/* Container for the two columns */
+.ai-columns-wrapper > .ai-columns {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+/* Left section with background image and overlay elements */
 .ai-columns-wrapper > .ai-columns > div {
   display: flex;
-  flex-direction: row; /* Ensure elements are side by side */
-  gap: 20px; /* Space between columns */
+  flex-direction: row;
+  gap: 20px;
+  flex: 1;
 }
 
-/* Left section styling */
 .ai-columns-wrapper > .ai-columns > div > div:first-child {
   position: relative;
   background-image: url('./media_16a737a0eaa91b53cd766644f7504daea2b69463b.jpeg?width=2000&format=webply&optimize=medium');
@@ -21,46 +26,66 @@
   background-position: center;
   color: white;
   padding: 20px;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 500px; /* Adjust height as needed */
+  flex: 1;
 }
 
-/* Title and date at the top */
-#block-settlement {
-  font-size: 1.8rem;
+.ai-columns-wrapper > .ai-columns > div > div:first-child #block-settlement,
+.ai-columns-wrapper > .ai-columns > div > div:first-child #january-15-2025 {
+  position: absolute;
+  left: 20px;
+  background: rgba(0, 102, 102, 0.8); /* Semi-transparent background */
+  color: white;
+  padding: 10px 20px;
   margin: 0;
-  font-weight: normal; /* Adjust font weight */
-}
-#january-15-2025 {
-  font-size: 1.3rem;
-  margin: 0;
-  font-weight: normal; /* Adjust font weight */
+  font-weight: normal;
 }
 
-/* Overlay for the bottom section */
+.ai-columns-wrapper > .ai-columns > div > div:first-child #block-settlement {
+  top: 20px;
+  font-size: 1.5rem;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:first-child #january-15-2025 {
+  top: 60px;
+  font-size: 1rem;
+}
+
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul {
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
   padding: 10px;
+  width: 100%;
   list-style: none;
   margin: 0;
-  color: white;
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
+  flex-direction: row; /* Ensure items are side by side */
+  justify-content: space-between;
+  align-items: center; /* Ensure vertical alignment */
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:first-child ul li {
+  padding: 5px 0;
+  flex: 1; /* Ensure items take equal space */
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul li a {
-  color: var(--link-color);
+  color: white;
 }
 
-.ai-columns-wrapper > .ai-columns > div > div:first-child ul li a:hover {
-  color: var(--link-hover-color);
+.ai-columns-wrapper > .ai-columns > div > div:first-child ul li:last-child {
+  align-self: flex-end;
+  text-align: right; /* Ensure alignment to the right */
 }
 
-/* Right section styling */
+/* Adjust the right section layout */
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -68,33 +93,57 @@
   flex: 1;
 }
 
-/* Styling for the image and text in the right section */
+/* Ensure proper layout for the small image and colored blocks in the right section */
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column; /* Ensure items are stacked vertically */
+  gap: 20px;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li {
-  margin-bottom: 10px;
+  padding: 5px 0;
 }
 
-/* Individual buttons styling */
-#request-aspeakerfrombanking-finance, #meet-ourstaff, #join-ourteam {
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li a {
+  color: white;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #request-aspeakerfrombanking-finance,
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #meet-ourstaff,
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #join-ourteam {
   text-align: center;
   padding: 20px;
   color: white;
-  font-size: 1rem; /* Adjust font size */
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto; /* Ensure height is auto to avoid stretching */
 }
 
-#request-aspeakerfrombanking-finance {
-  background-color: #b30047; /* Magenta */
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #request-aspeakerfrombanking-finance a {
+  background-color: #b30047; /* Red color */
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
-#meet-ourstaff {
-  background-color: #c4d600; /* Lime green */
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #meet-ourstaff a {
+  background-color: #c4d600; /* Green color */
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
-#join-ourteam {
-  background-color: #a1c4d0; /* Light blue */
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #join-ourteam a {
+  background-color: #a1c4d0; /* Blue color */
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
