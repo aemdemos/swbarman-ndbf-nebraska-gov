@@ -5,6 +5,8 @@
   padding: 0; /* Remove padding */
   list-style: none; /* Remove default list styling */
   margin: 0; /* Remove margin */
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
 }
 
 .ai-cards-1-wrapper .ai-cards-1 > ul > li {
