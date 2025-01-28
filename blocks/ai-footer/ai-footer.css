@@ -1,12 +1,11 @@
 
 .ai-footer-container > .ai-footer-wrapper {
-  max-width: unset;
-  padding: 0;
-  margin: 0;
+  width: 60%;
+  margin: auto;
 }
 
 .ai-footer-wrapper {
-  background-color: #3a3a3a; /* Dark gray background color */
+  background-color: #4C4D4F; /* Dark gray background color */
   color: #ffffff; /* White text color */
   padding: 20px; /* Padding around the content */
 }
@@ -14,6 +13,13 @@
 .ai-footer {
   display: flex;
   flex-direction: column; /* Stack the main content div and the footer div vertically */
+  padding: 40px 10px;
+}
+
+.ai-footer .footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 /* Styling for the main content div */
@@ -42,6 +48,10 @@
   gap: 10px; /* Increase space between elements */
 }
 
+.ai-footer > div:first-child > div:nth-child(1) > p:nth-child(4) > picture img {
+    margin-left: -15px;
+}
+
 .ai-footer > div:first-child > div:nth-child(1) > p:nth-child(4) {
   display: flex;
   flex-direction: row; /* Align badges side-by-side */
@@ -58,8 +68,8 @@
 
 .ai-footer > div:first-child > div:nth-child(2) ul {
   display: flex;
-  flex-direction: row; /* Arrange contact items side-by-side */
-  gap: 40px; /* Space between contact items */
+  flex-direction: column; /* Arrange contact items side-by-side */
+  gap: 10px; /* Space between contact items */
 }
 
 /* Styling for the footer section */
@@ -78,22 +88,51 @@
 }
 
 .ai-footer > div:first-child > div:nth-child(1) img {
-  width: auto; /* Ensure the logo image retains its aspect ratio */
+  width: 175px;
+  padding-bottom: 10px;
 }
 
 /* Styling for the links and lists */
 .ai-footer a {
-  color: #ffc107; /* Yellow link color */
+  color: white; /* Yellow link color */
   text-decoration: none;
 }
 
+.ai-footer .map-pointer {
+    font-family: "Glyphicons Halflings";
+    content: "\e062";
+}
+
+.map-pointer::before {
+    font-family: "Glyphicons Halflings";
+    content: "\e062";
+}
+
+.ai-footer .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased; /* Yellow icon color */
+    padding-right: 5px;
+}
+
 .ai-footer a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: none; /* Underline on hover */
+  color: #ffc107;
 }
 
 .ai-footer h4 {
-  color: #ffc107; /* Yellow color for titles */
+  color: white; /* Yellow color for titles */
   font-weight: bold;
+  margin-top: 0;
+}
+
+.ai-footer h4:hover {
+    color: #ffc107; /* Yellow color for titles on hover */
 }
 
 .ai-footer ul {
