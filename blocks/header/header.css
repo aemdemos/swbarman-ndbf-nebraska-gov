@@ -2,19 +2,18 @@
 /* Scoped CSS for the header */
 
 .header-wrapper {
-  background-color: #333; /* Dark grey background */
+  background-color: #4C4D4F; /* Dark grey background */
   padding: 10px 20px;
   border-bottom: 4px solid #f5a623; /* Thin yellow line at the bottom */
 }
 
 .header-wrapper .nav-wrapper {
-  position: fixed;
   width: 100%;
   z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333; /* Ensure the header background is solid */
+  background-color: #4C4D4F; /* Ensure the header background is solid */
 }
 
 header {
