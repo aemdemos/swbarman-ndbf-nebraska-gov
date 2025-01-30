@@ -15,4 +15,21 @@ export default function decorate(block) {
       }
     });
   });
+
+  const buttons = document.querySelectorAll('.ai-columns .button-container');
+
+  // Create a new container div
+  const container = document.createElement('div');
+  container.classList.add('button-wrapper');
+
+  // Move buttons into the new container
+  buttons.forEach(button => {
+    container.appendChild(button);
+  });
+
+  const body = document.querySelectorAll('.ai-columns div:nth-child(2)');
+  body.forEach(body => {
+    body.appendChild(container);
+  })
+
 }

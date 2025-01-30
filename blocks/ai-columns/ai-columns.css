@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 500px; /* Adjust height as needed */
+  height: 400px; /* Adjust height as needed */
   flex: 1;
 }
 
@@ -153,12 +153,45 @@
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) .button-container > .button {
   color: white;
-  width: 50%;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
-  display: block;
+  display: flex;
   border-radius: unset;
   text-align: center;
   max-width: unset;
   white-space: unset;
+  justify-content: center;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: unset;
+    position: relative;
+    top: 225px;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:first-child a {
+    grid-row: span 2;
+    background-color: #B92355;
+    height: 200px;
+    padding: 0.6em;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:nth-child(2) a {
+    background-color: #B9BE40;
+    height: 80px;
+    padding: 0.3em;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:last-child a {
+    background-color: #B8C7D3;
+    height: 80px;
+    width: 185px;
+    position: absolute;
+    top: 125px;
+    right: 0px;
+    padding: 0.3em;
+
 }
