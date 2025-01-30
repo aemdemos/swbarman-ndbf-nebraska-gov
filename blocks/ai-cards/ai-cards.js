@@ -15,4 +15,23 @@ export default function decorate(block) {
   ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   block.textContent = '';
   block.append(ul);
+
+  document.querySelectorAll(".ai-cards ul li").forEach(li => {
+    const link = li.querySelector(".ai-cards-card-body a");
+    if (link) {
+      const url = link.href;
+      const wrapper = document.createElement("a");
+      wrapper.href = url;
+      wrapper.style.textDecoration = "none";
+      wrapper.style.color = "inherit";
+      wrapper.style.width = "100%";
+
+      while (li.firstChild) {
+        wrapper.appendChild(li.firstChild);
+      }
+      li.appendChild(wrapper);
+    }
+
+  });
+
 }

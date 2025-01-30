@@ -177,6 +177,10 @@ pre {
   white-space: pre;
 }
 
+main {
+  margin-top: 2%;
+}
+
 main>div {
   margin: 40px 16px;
 }
@@ -258,20 +262,8 @@ main>.section {
   margin: 40px 0;
 }
 
-main>.section>div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
-}
-
 main>.section:first-of-type {
   margin-top: 0;
-}
-
-@media (width>=900px) {
-  main>.section>div {
-    padding: 0 32px;
-  }
 }
 
 /* section metadata */

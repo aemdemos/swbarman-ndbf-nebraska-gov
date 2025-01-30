@@ -1,21 +1,20 @@
 
-.ai-columns-wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
+
 
 .ai-columns-wrapper > .ai-columns {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
+  position: relative;
+  overflow: hidden;
+  margin: 50px auto;
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* Left section with background image and overlay elements */
 .ai-columns-wrapper > .ai-columns > div {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
   flex: 1;
 }
 
@@ -33,46 +32,74 @@
   flex: 1;
 }
 
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) {
+    position: relative;
+    background-image: url('./media_16a737a0eaa91b53cd766644f7504daea2b69463b.jpeg?width=2000&format=webply&optimize=medium');
+    background-size: 400px;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 225px; /* Adjust height as needed */
+    max-width: 400px;
+    flex: 1;
+}
+
 .ai-columns-wrapper > .ai-columns > div > div:first-child #block-settlement,
 .ai-columns-wrapper > .ai-columns > div > div:first-child #january-15-2025 {
   position: absolute;
-  left: 20px;
-  background: rgba(0, 102, 102, 0.8); /* Semi-transparent background */
+  left: 0px;
+  top: 0px;
+  background: rgba(0,96,125,0.8); /* Semi-transparent background */
   color: white;
   padding: 10px 20px;
   margin: 0;
+  display: inline-block;
   font-weight: normal;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child #block-settlement {
-  top: 20px;
-  font-size: 1.5rem;
+  top: 0px;
+  font-size: 36px;
+}
+
+.ai-columns-wrapper > .ai-columns > div #edward-jones-settlement {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(0,96,125,0.8); /* Semi-transparent background */
+    color: #00607D;
+    padding: 10px 20px;
+    margin: 0;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child #january-15-2025 {
-  top: 60px;
-  font-size: 1rem;
+  top: 65px;
+  font-size: 24px;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul {
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   left: 0;
-  right: 0;
   background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
   color: white;
   padding: 10px;
   width: 100%;
-  list-style: none;
-  margin: 0;
-  display: flex;
-  flex-direction: row; /* Ensure items are side by side */
-  justify-content: space-between;
-  align-items: center; /* Ensure vertical alignment */
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+  height: 90px;
+  width: 97.3%;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul li {
-  padding: 5px 0;
   flex: 1; /* Ensure items take equal space */
 }
 
@@ -81,8 +108,10 @@
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul li:last-child {
-  align-self: flex-end;
   text-align: right; /* Ensure alignment to the right */
+  bottom: 25px;
+  right: 5px;
+  position: relative;
 }
 
 /* Adjust the right section layout */
@@ -96,11 +125,18 @@
 /* Ensure proper layout for the small image and colored blocks in the right section */
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul {
   list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.5px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column; /* Ensure items are stacked vertically */
-  gap: 20px;
+  width: 95%;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li {
@@ -109,41 +145,20 @@
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li a {
   color: white;
+  text-align: right; /* Ensure alignment to the right */
+  bottom: 25px;
+  position: absolute;
+  right: 10px;
 }
 
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #request-aspeakerfrombanking-finance,
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #meet-ourstaff,
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #join-ourteam {
-  text-align: center;
-  padding: 20px;
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) .button-container > .button {
   color: white;
-  font-size: 1rem;
+  width: 50%;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
   display: block;
-  width: 100%;
-  box-sizing: border-box;
-  height: auto; /* Ensure height is auto to avoid stretching */
-}
-
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #request-aspeakerfrombanking-finance a {
-  background-color: #b30047; /* Red color */
-  display: block;
-  padding: 20px;
+  border-radius: unset;
   text-align: center;
-  color: white;
-}
-
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #meet-ourstaff a {
-  background-color: #c4d600; /* Green color */
-  display: block;
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
-
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #join-ourteam a {
-  background-color: #a1c4d0; /* Blue color */
-  display: block;
-  padding: 20px;
-  text-align: center;
-  color: white;
+  max-width: unset;
+  white-space: unset;
 }
