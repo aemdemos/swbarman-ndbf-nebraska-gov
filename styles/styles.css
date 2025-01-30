@@ -177,6 +177,10 @@ pre {
   white-space: pre;
 }
 
+main {
+  margin-top: 2%;
+}
+
 main>div {
   margin: 40px 16px;
 }
