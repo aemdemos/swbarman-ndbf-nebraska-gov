@@ -127,7 +127,7 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  line-height: 1.2em;
+  line-height: 1.5em;
   letter-spacing: 0.5px;
   left: 0;
   background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
@@ -140,13 +140,13 @@
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li {
-  padding: 5px 0;
+  padding-top: 5px;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li a {
   color: white;
   text-align: right; /* Ensure alignment to the right */
-  bottom: 25px;
+  bottom: 15px;
   position: absolute;
   right: 10px;
 }
