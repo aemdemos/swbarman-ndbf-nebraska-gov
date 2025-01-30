@@ -110,7 +110,7 @@
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul li:last-child {
   text-align: right; /* Ensure alignment to the right */
   bottom: 25px;
-  right: 30px;
+  right: 5px;
   position: relative;
 }
 
@@ -125,11 +125,18 @@
 /* Ensure proper layout for the small image and colored blocks in the right section */
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul {
   list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.5px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column; /* Ensure items are stacked vertically */
-  gap: 20px;
+  width: 95%;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li {
@@ -138,41 +145,20 @@
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li a {
   color: white;
+  text-align: right; /* Ensure alignment to the right */
+  bottom: 25px;
+  position: absolute;
+  right: 10px;
 }
 
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #request-aspeakerfrombanking-finance,
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #meet-ourstaff,
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #join-ourteam {
-  text-align: center;
-  padding: 20px;
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) .button-container > .button {
   color: white;
-  font-size: 1rem;
+  width: 50%;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
   display: block;
-  width: 100%;
-  box-sizing: border-box;
-  height: auto; /* Ensure height is auto to avoid stretching */
-}
-
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #request-aspeakerfrombanking-finance a {
-  background-color: #b30047; /* Red color */
-  display: block;
-  padding: 20px;
+  border-radius: unset;
   text-align: center;
-  color: white;
-}
-
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #meet-ourstaff a {
-  background-color: #c4d600; /* Green color */
-  display: block;
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
-
-.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) #join-ourteam a {
-  background-color: #a1c4d0; /* Blue color */
-  display: block;
-  padding: 20px;
-  text-align: center;
-  color: white;
+  max-width: unset;
+  white-space: unset;
 }
