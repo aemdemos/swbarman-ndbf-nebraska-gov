@@ -8,6 +8,7 @@
   width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
+  font-weight: lighter;
 }
 
 /* Left section with background image and overlay elements */
@@ -20,15 +21,14 @@
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child {
   position: relative;
-  background-image: url('./media_16a737a0eaa91b53cd766644f7504daea2b69463b.jpeg?width=2000&format=webply&optimize=medium');
+  background-image: url('https://ndbf.nebraska.gov/sites/default/files/styles/main_large__slideshow_image_style/public/img/NDBF%20Reaccreditation%20Award%20-%20Jan%202025.jpg?itok=gKg1QuyZ');
   background-size: cover;
-  background-position: center;
   color: white;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 500px; /* Adjust height as needed */
+  height: 400px; /* Adjust height as needed */
   flex: 1;
 }
 
@@ -36,7 +36,6 @@
     position: relative;
     background-image: url('./media_16a737a0eaa91b53cd766644f7504daea2b69463b.jpeg?width=2000&format=webply&optimize=medium');
     background-size: 400px;
-    background-position: center;
     color: white;
     display: flex;
     flex-direction: column;
@@ -46,8 +45,8 @@
     flex: 1;
 }
 
-.ai-columns-wrapper > .ai-columns > div > div:first-child #block-settlement,
-.ai-columns-wrapper > .ai-columns > div > div:first-child #january-15-2025 {
+.ai-columns-wrapper > .ai-columns > div > div:first-child #ndbf-re-accreditation-award,
+.ai-columns-wrapper > .ai-columns > div > div:first-child #january-30-2025 {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -59,7 +58,7 @@
   font-weight: normal;
 }
 
-.ai-columns-wrapper > .ai-columns > div > div:first-child #block-settlement {
+.ai-columns-wrapper > .ai-columns > div > div:first-child #ndbf-re-accreditation-award {
   top: 0px;
   font-size: 36px;
 }
@@ -78,9 +77,10 @@
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.ai-columns-wrapper > .ai-columns > div > div:first-child #january-15-2025 {
+.ai-columns-wrapper > .ai-columns > div > div:first-child #january-30-2025 {
+  font-size: 22px;
   top: 65px;
-  font-size: 24px;
+  padding-top: 0;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul {
@@ -153,12 +153,45 @@
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) .button-container > .button {
   color: white;
-  width: 50%;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
-  display: block;
+  display: flex;
   border-radius: unset;
   text-align: center;
   max-width: unset;
   white-space: unset;
+  justify-content: center;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: unset;
+    position: relative;
+    top: 225px;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:first-child a {
+    grid-row: span 2;
+    background-color: #B92355;
+    height: 200px;
+    padding: 0.6em;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:nth-child(2) a {
+    background-color: #B9BE40;
+    height: 80px;
+    padding: 0.3em;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:last-child a {
+    background-color: #B8C7D3;
+    height: 80px;
+    width: 185px;
+    position: absolute;
+    top: 125px;
+    right: 0px;
+    padding: 0.3em;
+
 }
