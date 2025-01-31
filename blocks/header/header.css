@@ -18,7 +18,8 @@ header nav {
     max-width: 1248px;
     height: var(--nav-height);
     padding: 0 24px;
-    font-family: var(--body-font-family);
+    font-family: var(--heading-font-family);
+    letter-spacing: .5px;
 }
 
 header nav[aria-expanded='true'] {
@@ -138,6 +139,36 @@ header nav[aria-expanded='false'] .nav-hamburger-icon::after {
         border-width: 2px 2px 0 0;
     }
 
+    i {
+        display: block;
+        font-size: 45px;
+        padding-bottom: 10px;
+        opacity: .6;
+        color: #FFFFFF;
+        font-family: var(--icon-font-family);
+        font-style: normal;
+        line-height: 1;
+    }
+    .fa-info-circle:before {
+        content: "\f128";
+    }
+
+    .fa-info-industries:before {
+        content: "\f19c";
+    }
+
+    .fa-info-consumers:before {
+        content: "\f007";
+    }
+
+    .fa-info-searches:before {
+        content: "\f002";
+    }
+
+    .fa-info-pie-chart:before {
+        content: "\f200";
+    }
+
     header nav .nav-sections .nav-drop[aria-expanded='true']::after {
         top: unset;
         bottom: 0.5em;
@@ -166,7 +197,7 @@ header nav[aria-expanded='false'] .nav-hamburger-icon::after {
         position: absolute;
         left: -24px;
         width: 200px;
-        top: 340%;
+        top: 134%;
         padding: 16px;
         background-color: #4C4D4F;
         white-space: initial;
@@ -316,6 +347,7 @@ header nav .nav-sections ul > li > ul > li {
         border: 2px solid currentcolor;
         border-radius: 0 1px 0 0;
         border-width: 2px 2px 0 0;
+        color: #4C4D4F;
     }
 
     header nav .nav-sections .nav-drop[aria-expanded='true']::after {
@@ -333,6 +365,7 @@ header nav .nav-sections ul > li > ul > li {
     header nav .nav-sections .default-content-wrapper > ul > li {
         flex: 0 1 auto;
         position: relative;
+        text-align: center
     }
 
     header nav .nav-sections .default-content-wrapper > ul > li > ul {
@@ -345,11 +378,36 @@ header nav .nav-sections ul > li > ul > li {
         position: absolute;
         left: -24px;
         width: 200px;
-        top: 340%;
+        top: 134%;
         padding: 16px;
         background-color: #4C4D4F;
         white-space: initial;
         z-index: 200;
+    }
+
+    .sf-sub-indicator {
+        color: #717171;
+        height: 1em;
+        line-height: 9999px;
+        opacity: 0.75;
+        overflow: hidden;
+        position: absolute;
+        right: -0.35em;
+        speak: none;
+        text-indent: -9999px;
+        top: 40%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 1em;
+    }
+
+    .sf-sub-indicator:after {
+        content: "▼";
+        left: 0;
+        line-height: 1;
+        position: absolute;
+        text-indent: 0;
+        top: 0;
     }
 
     /*header nav .nav-sections .default-content-wrapper > ul > li > ul::before {*/
