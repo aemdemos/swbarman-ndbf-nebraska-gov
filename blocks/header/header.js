@@ -296,4 +296,10 @@ export default async function decorate(block) {
     pieChartLink.appendChild(span);
   }
 
+  const input = document.createElement('input');
+  input.type = 'text';
+  input.placeholder = 'Search';
+  input.className = 'search-input';
+  nav.appendChild(input);
+
 }

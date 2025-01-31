@@ -433,3 +433,14 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
     grid-area: tools;
 }
+
+.search-input {
+    border-radius: 40px;
+    margin-left: 10%;
+    border: none;
+}
+
+.search-input::placeholder {
+    font-size: 16px; /* Adjust the size as needed */
+    padding-left: 10px;
+}
