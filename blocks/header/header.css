@@ -216,10 +216,19 @@ header nav[aria-expanded='false'] .nav-hamburger-icon::after {
         left: 200px;
         width: 200px;
         top: 0;
-        padding: 16px;
         background-color: #4C4D4F;
         white-space: initial;
         z-index: 200;
+    }
+
+    header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul > li[aria-expanded='true'] > ul > li
+    {
+        padding: 16px;
+        border-bottom: 1px solid #222 !important;
+    }
+
+    header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul > li[aria-expanded='true'] > ul > li:hover {
+        background-color: #222;
     }
 
     /*header nav .nav-sections .default-content-wrapper > ul > li > ul::before {*/
@@ -381,7 +390,6 @@ header nav .nav-sections ul > li > ul > li {
         left: -24px;
         width: 200px;
         /*top: 134%;*/
-        padding: 16px;
         background-color: #4C4D4F;
         white-space: initial;
         z-index: 200;
@@ -425,8 +433,14 @@ header nav .nav-sections ul > li > ul > li {
     /*}*/
 
     header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-        padding: 8px 0;
+        padding: 16px;
+        border-bottom: 1px solid #222 !important;
     }
+}
+
+header nav .nav-sections .default-content-wrapper > ul > li > ul > li:hover
+{
+    background-color: #222;
 }
 
 /* tools */
