@@ -1,0 +1,40 @@
+
+.ai-hero-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Ensure the wrapper spans the full viewport width */
+  padding: 0;
+  margin: 0;
+  max-width: unset;
+}
+
+.ai-hero {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ai-hero > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ai-hero picture {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.ai-hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}

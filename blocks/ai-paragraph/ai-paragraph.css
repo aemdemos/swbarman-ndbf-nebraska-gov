@@ -1,0 +1,45 @@
+
+.ai-paragraph-wrapper .ai-paragraph > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p {
+  margin: 0 0 8px 0; /* Add spacing between paragraphs */
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:first-child {
+  font-weight: bold; /* Make the first paragraph bold */
+  display: inline-block; /* Display inline-block to stay on the same line */
+  margin-right: 4px; /* Add spacing between "Publication Date" and the date */
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(2) {
+  display: inline-block; /* Display inline-block to stay on the same line */
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(4) {
+  display: flex;
+  align-items: center;
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(4) a {
+  margin-right: 8px; /* Add spacing between the link and the text */
+  color: #007bff; /* Set the color for the link */
+  text-decoration: none; /* Remove underline from link */
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(4)::before {
+  content: '';
+  display: inline-block;
+  width: 16px; /* Adjust the size of the icon */
+  height: 16px;
+  background-image: url('path-to-icon'); /* Add the appropriate path to the icon image */
+  background-size: contain;
+  margin-right: 8px; /* Add spacing between the icon and the link text */
+}
