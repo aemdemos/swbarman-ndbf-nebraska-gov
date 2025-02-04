@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e3ebf0; /* Light background color */
+  background: #d9e2e7;
   padding: 80px 20px; /* Increased padding */
 }
 
@@ -23,12 +23,14 @@
 }
 
 .ai-banner-block h1 {
-  font-size: 34px; /* Adjusted font size */
+  font-size: 36px; /* Adjusted font size */
   font-weight: 200; /* Adjusted font weight */
   color: #333;
   margin: 0;
-  padding-bottom: 20px; /* Increased padding-bottom */
   position: relative;
+  line-height: 1.1;
+  font-family: "Montserrat", sans-serif, ultra-light;
+
 }
 
 .ai-banner-block h1::after {
