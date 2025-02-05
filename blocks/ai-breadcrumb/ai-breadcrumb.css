@@ -2,7 +2,9 @@
 /* Apply styles to the top-level wrapper */
 .ai-breadcrumb-wrapper {
   background-color: #edf3f7; /* Light grey background color */
-  padding: 10px; /* Add some padding for spacing */
+  padding-left: 436px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Apply styles to the breadcrumb block */
@@ -10,6 +12,7 @@
   display: flex; /* Use flexbox to align items horizontally */
   flex-direction: row; /* Ensure items are aligned side by side */
   align-items: center; /* Vertically center the items */
+  background: #E9EEF1;
 }
 
 /* Apply styles to the inner divs to ensure they are side by side */
@@ -26,6 +29,7 @@
   list-style: none; /* Remove default list styles */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
+  font-size: 14px;
 }
 
 /* Style for the list items */
@@ -39,22 +43,29 @@
 
 /* Style for the link inside the list item */
 .ai-breadcrumb ol li a {
-  color: #1d3ecf; /* Adjust link color to match original */
+  color: #004c63;/* Adjust link color to match original */
   text-decoration: none; /* Remove underline */
   display: flex; /* Ensure items are aligned side by side */
   align-items: center; /* Vertically center the items */
+
 }
 
 /* Style for the separator */
 .ai-breadcrumb ol li::after {
   content: "/"; /* Add a forward slash separator */
-  margin-left: 1px; /* Further reduce spacing after the separator */
-  color: #4a4a4a; /* Separator color */
+  color: #777;/* Separator color */
   display: flex; /* Ensure items are aligned side by side */
   align-items: center; /* Vertically center the items */
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.ai-breadcrumb ol li:last-child {
+    color: #777;
 }
 
 /* Remove separator from the last list item */
 .ai-breadcrumb ol li:last-child::after {
   content: ""; /* Remove separator */
+  color: #777;
 }
