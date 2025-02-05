@@ -2,17 +2,17 @@
 /* Apply styles to the top-level wrapper */
 .ai-breadcrumb-wrapper {
   background-color: #edf3f7; /* Light grey background color */
-  padding-left: 436px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 /* Apply styles to the breadcrumb block */
 .ai-breadcrumb {
-  display: flex; /* Use flexbox to align items horizontally */
-  flex-direction: row; /* Ensure items are aligned side by side */
-  align-items: center; /* Vertically center the items */
-  background: #E9EEF1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    width: 1560px;
+
 }
 
 /* Apply styles to the inner divs to ensure they are side by side */
