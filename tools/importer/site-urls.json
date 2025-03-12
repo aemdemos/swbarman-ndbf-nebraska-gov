@@ -1,0 +1,1385 @@
+{
+  "originUrl": "https://ndbf.nebraska.gov/",
+  "urls": [
+    {
+      "url": "https://ndbf.nebraska.gov/",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/ndbf-team",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/careers",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/news-publications",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/calendar",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/banking-finance-statutes",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/administrative-rules-and-regulations",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/guidance-documents",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/administrative-orders",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/contact-us",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/state-chartered-banks-trust-companies",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/credit-unions",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/digital-assets",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/mortgage-lenders",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/money-transmitters",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumer-lenders",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/delayed-deposit-services-payday-lenders",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/switches",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/garnishment-summons",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/broker-dealers-broker-dealer-agents",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/broker-dealer-broker-dealer-agent-registration-renewal-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/business-opportunities-franchises",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/citizenship-verification",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/commodities",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumer-rental-purchase-rent-own",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/intrastate-crowdfunding",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/investment-advisers-investment-adviser-representatives",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/investment-adviser-investment-adviser-representative-renewal-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/issuer-dealers-and-agents",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/loan-brokers",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/securities-notice-filings-registrations",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumers",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumer-alerts",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumers/consumer-resources",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumers/complaints",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/searches",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/reports",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/monthly-activity-reports",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/annual-reports",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/news-publications/ndbf-re-accreditation-award",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/news-publications/block-settlement",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/request-speaker",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/ndbf-staff",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/careers",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/department-administrative-rules-policy-statements",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-relocate-branch-bank-0",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-relocate-branch-bank",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/monogram-llc-notice-application-installment-loan-license",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-installment-loan-license-prosper-marketplace-inc",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-installment-loan-license-prosper-funding-llc",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notices",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/user",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/140",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/129",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/93",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/125",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/126",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/news-publications/archive",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/139",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/supervisory-orders",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/107",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/personal-loans-banks-and-trust-companies",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/loan-broker-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/libor-transition-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/nebraska-money-transmitters-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/residential-mortgage-licensing-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/seller-assisted-marketing-plan-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/protection-vulnerable-adults-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/263",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/30",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/264",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/128",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/130",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/credit-unions-savings-loans",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/consumer-lenders",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/money-transmitters",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/broker-dealers-broker-dealer-agents",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/issuer-dealers-and-agents",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/commodities",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/consumer-rental-purchase-rent-own",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/investment-advisers-investment-adviser-representatives",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/securities-act-nebraska",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/securities-notice-filings-registrations",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/loan-brokers",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/18",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/commercial-banking-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/trust-company-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/financial-institution-officer-exemptions",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/state-chartered-bank-trust-company-overview",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/single-bank-pooled-collateral-program",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/commercial-banking-trust-laws",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/reports/monthly-activity-reports",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/reports/annual-reports",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/state-bank-trust-links",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/tips-preparing-thorough-sar-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/banking-calculation-templates",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/ndbf-staff",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/21",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/credit-unions-and-savings-loans",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/state-chartered-credit-union-overview",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/credit-union-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/state-credit-union-loan-links",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/384",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/financial-innovation-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/56",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/mortgage-banking-regulation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/mortgage-lending-license",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/mortgage-banking-exemptions",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/mortgage-lenders-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/searches/department-orders-actions",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/68",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/money-transmitter-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/money-transmitter-license",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/62",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/consumer-lending-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/consumer-lending-regulation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/consumer-lending-licenses",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/consumer-lending-license-renewal",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumers/consumer-lending-laws",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/regulatory-community-links",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/72",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/delayed-deposit-servicespayday-lender-regulation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/delayed-deposit-service-license",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/delayed-deposit-services-payday-lenders-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/delayed-deposit-services-licensing-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/27",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/26",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/94",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/broker-dealer-broker-dealer-agent-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/broker-dealer-vs-investment-adviser",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/broker-dealer-broker-dealer-agent-regulation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/broker-dealer-broker-dealer-agent-registration-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/broker-dealer-broker-dealer-agent-registration-renewal-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/continuing-education-resources",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/99",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/105",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/295",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/citizenship-verification-faq",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/422",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/nebraska-commodity-code",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/423",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/consumer-rental-purchase-agreement-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/104",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/77",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/investment-advisers-investment-adviser-representative-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/investment-adviser-investment-adviser-representatives-regulation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/investment-adviser-investment-adviser-representative-registration-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/investment-adviser-investment-adviser-representative-renewal-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/87",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/377",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/361",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/100",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/mutual-funds-and-unit-investment-trusts",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/nebraska-requirements-regulation-tier-2-offerings",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/filing-requirements-regulation-d-offerings",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/securities-exemptions",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/registration-coordination-or-qualification",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/securities-regulation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/old-stock-certificates",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/securities-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/securities/securities-fees",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/137",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumers/consumer-alerts",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/133",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/134",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/consumers/mortgage-foreclosure-help-resources",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/29",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/141",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/138",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/91",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/92",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/749",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/724",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/143",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/761",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/759",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/760",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/757",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/756",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-installment-loan-license-portfolio-recovery-associates-llc-1",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-installment-loan-license-capital-collection-management-llc",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-installment-loan-license-align-balance-llc",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-application-installment-loan-license-portfolio-recovery-associates-llc-0",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/notice-surrender-trust-charter-and-notice-deadline-claims",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/user/login",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/user/password",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/news-publications/precious-metals-enforcement",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/ndbf-2018-rules-updates-hearing-20180725",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/234",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/119",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/libor-transition-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/496",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/71",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/61",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/106",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/protection-vulnerable-adults-financial-exploitation-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/401",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/86",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/22",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/community-development-investment-cdi",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/24",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/248",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/25",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/single-bank-pooled-collateral-program",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/433",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/37",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/acquisition-or-merger-financial-institutions",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/assessments",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/bank-holding-companies",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/bankers-banks",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/building-and-loan-associations",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/compliance-review",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/credit-card-bank",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/credit-report-protection-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/deposit-securities",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/disclosure-confidential-information",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/financial-data-protection-consumer-notification-data-security-breach-act-2006",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/financial-exploitation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/interest-rates-and-loans",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/interstate-branching-merger-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/interstate-trust-company-office-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/names",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/nebraska-banking-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/nebraska-trust-company-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/safety-deposit-boxes",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/state-federal-cooperation-acts-capital-notes",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/servicemembers-civil-relief-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/285",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/23",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/banking-calculation-templates",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/519",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/54",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/state-chartered-credit-union-overview",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/431",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/113",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/55",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/387",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/57",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/58",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/59",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/60",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/69",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/70",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/64",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/65",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/67",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/66",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/136",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/installment-loan-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/installment-sales-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/loan-broker-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/revolving-charge-agreements",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/81",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/73",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/75",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/76",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/74",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/80",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/304",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/124",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/123",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/78",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/84",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/79",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/industries/investment-advisers-investment-adviser-representative-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/mutual-funds-and-unit-investment-trusts",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/364",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/nebraska-requirements-regulation-tier-2-offerings",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/244",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/filing-requirements-regulation-d-offerings",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/101",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/securities-exemptions",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/363",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/registration-coordination-or-qualification",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/362",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/103",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/old-stock-certificates",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/374",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/securities-forms",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/102",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/securities-fees",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/365",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/135",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/legal/nebraska-foreclosure-protection-act",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/755",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/754",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/753",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/752",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/745",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/357",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/292",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/218",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/38",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/108",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/40",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/109",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/110",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/42",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/111",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/112",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/43",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/44",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/114",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/financial-exploitation",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/366",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/118",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/45",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/46",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/47",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/48",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/49",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/50",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/52",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/53",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/116",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/117",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/121",
+      "source": "CRAWL"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/node/120",
+      "source": "CRAWL"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "crawl",
+    "logger": {}
+  },
+  "extractionErrors": [
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/Buisness%20Plan%20Guidelines_0.docx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/news-release/FINAL%20NASAA%20President%20Claire%20McHenry%20Press%20Release%2009.05.23_0.docx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/news-release/FINAL%20Lear%20Release%208.01.23.docx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/news-release/FINAL%20State%20RH%20Release%206.26.23%20.docx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/news-release/02.01.21%20Share-Price-Volatility%20Draft%201.docx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/news-release/RFI%20Pooled%20Collateral%202019%20FINAL%20September%2019%202019_1.docx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/news-release/2018%20Annual%20Report.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/news-release/DDS_2018%20Supplemental%20Annual%20Report.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/doc/press/2018%20Non%20FINRA%20Renewal%20Notice%20and%20Checklist.docx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/doc/dds/FAQs%20May%2009%20update.doc",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/doc/industries/EOL-fin-statement.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/Copy%20of%20MasterTrustCallReportForm24.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/doc/industries/trustpublish.doc",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/doc/industries/dds-part-pay.doc",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/2020%20Annual%20Report.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/2020%20Supplemental%20Annual%20Report.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/2021%20Annual%20Report.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/2021%20Supplemental%20Annual%20Report.xlsx",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/5-FORMNF%20%281%29.doc",
+      "status": "content type is not text/html"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/sites/default/files/industries/cdi-worksheet.doc",
+      "status": "content type is not text/html"
+    }
+  ]
+}
