@@ -136,11 +136,33 @@ export default async function decorate(block) {
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-      navSection.addEventListener('click', () => {
+      navSection.addEventListener('mouseenter', () => {
         if (isDesktop.matches) {
-          const expanded = navSection.getAttribute('aria-expanded') === 'true';
-          toggleAllNavSections(navSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+          navSection.setAttribute('aria-expanded',  'true');
+        }
+      });
+
+      navSection.addEventListener('mouseleave', () => {
+        if (isDesktop.matches) {
+          navSection.setAttribute('aria-expanded',  'false');
+        }
+      });
+
+    });
+  }
+
+  if (navSections) {
+    navSections.querySelectorAll(':scope .default-content-wrapper > ul > li > ul > li').forEach((navSection) => {
+      if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
+      navSection.addEventListener('mouseenter', () => {
+        if (isDesktop.matches) {
+          navSection.setAttribute('aria-expanded',  'true');
+        }
+      });
+
+      navSection.addEventListener('mouseleave', () => {
+        if (isDesktop.matches) {
+          navSection.setAttribute('aria-expanded',  'false');
         }
       });
     });
@@ -163,4 +185,121 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
+
+  const aboutLink = block.querySelector('a[title="About"]');
+
+  if (aboutLink) {
+    // Create an icon element (using Font Awesome)
+    const icon = document.createElement('i');
+    icon.className = 'fas fa-info-circle'; // Font Awesome class for an info icon
+
+    // Insert the icon before the text inside the <a> tag
+    aboutLink.insertBefore(icon, aboutLink.firstChild);
+
+    const span = document.createElement('span');
+
+    // Add the class 'sf-sub-indicator' to the <span>
+    span.classList.add('sf-sub-indicator');
+
+    // Set the inner HTML of the <span> to ' »'
+    span.innerHTML = ' »';
+
+    // Insert the <span> after the <a> element
+    aboutLink.appendChild(span);
+  }
+
+  const industriesLink = block.querySelector('a[title="Industries"]');
+
+  if (industriesLink) {
+    // Create an icon element (using Font Awesome)
+    const icon = document.createElement('i');
+    icon.className = 'fas fa-info-industries'; // Font Awesome class for an info icon
+
+    // Insert the icon before the text inside the <a> tag
+    industriesLink.insertBefore(icon, industriesLink.firstChild);
+
+    const span = document.createElement('span');
+
+    // Add the class 'sf-sub-indicator' to the <span>
+    span.classList.add('sf-sub-indicator');
+
+    // Set the inner HTML of the <span> to ' »'
+    span.innerHTML = ' »';
+
+    // Insert the <span> after the <a> element
+    industriesLink.appendChild(span);
+  }
+
+  const consumersLink = block.querySelector('a[title="Consumers"]');
+
+  if (consumersLink) {
+    // Create an icon element (using Font Awesome)
+    const icon = document.createElement('i');
+    icon.className = 'fas fa-info-consumers'; // Font Awesome class for an info icon
+
+    // Insert the icon before the text inside the <a> tag
+    consumersLink.insertBefore(icon, consumersLink.firstChild);
+
+    const span = document.createElement('span');
+
+    // Add the class 'sf-sub-indicator' to the <span>
+    span.classList.add('sf-sub-indicator');
+
+    // Set the inner HTML of the <span> to ' »'
+    span.innerHTML = ' »';
+
+    // Insert the <span> after the <a> element
+    consumersLink.appendChild(span);
+  }
+
+  const searchLink = block.querySelector('a[title="Searches"]');
+
+  if (searchLink) {
+    // Create an icon element (using Font Awesome)
+    const icon = document.createElement('i');
+    icon.className = 'fas fa-info-searches'; // Font Awesome class for an info icon
+
+    // Insert the icon before the text inside the <a> tag
+    searchLink.insertBefore(icon, searchLink.firstChild);
+
+    const span = document.createElement('span');
+
+    // Add the class 'sf-sub-indicator' to the <span>
+    span.classList.add('sf-sub-indicator');
+
+    // Set the inner HTML of the <span> to ' »'
+    span.innerHTML = ' »';
+
+    // Insert the <span> after the <a> element
+    searchLink.appendChild(span);
+  }
+
+  const pieChartLink = block.querySelector('a[title="Reports"]');
+
+  if (pieChartLink) {
+    // Create an icon element (using Font Awesome)
+    const icon = document.createElement('i');
+    icon.className = 'fas fa-info-pie-chart'; // Font Awesome class for an info icon
+
+    // Insert the icon before the text inside the <a> tag
+    pieChartLink.insertBefore(icon, pieChartLink.firstChild);
+
+    const span = document.createElement('span');
+
+    // Add the class 'sf-sub-indicator' to the <span>
+    span.classList.add('sf-sub-indicator');
+
+    // Set the inner HTML of the <span> to ' »'
+    span.innerHTML = ' »';
+
+    // Insert the <span> after the <a> element
+    pieChartLink.appendChild(span);
+  }
+
+  const input = document.createElement('input');
+  input.type = 'text';
+  input.placeholder = 'Search';
+  input.className = 'search-input';
+  nav.appendChild(input);
+
 }

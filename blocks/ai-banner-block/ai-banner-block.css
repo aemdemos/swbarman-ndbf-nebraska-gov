@@ -1,0 +1,48 @@
+
+.ai-banner-block-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d9e2e7;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.ai-banner-block {
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+    width: 1170px; /* Added max-width for better centering */
+}
+
+.ai-banner-block > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ai-banner-block h1 {
+  font-size: 36px; /* Adjusted font size */
+  font-weight: 200; /* Adjusted font weight */
+  color: #333;
+  margin: 0;
+  position: relative;
+  line-height: 1.1;
+  font-family: "Montserrat", sans-serif, ultra-light;
+
+}
+
+.ai-banner-block h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #eee; /* Subtle line color */
+  margin-top: 10px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}

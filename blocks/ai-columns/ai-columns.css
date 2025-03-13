@@ -1,66 +1,120 @@
 
-/* Ensure the columns block spans the entire width */
-.ai-columns-container > .ai-columns-wrapper {
-  max-width: unset;
-  padding: 0;
-  margin: 0;
+
+
+.ai-columns-wrapper > .ai-columns {
+  position: relative;
+  overflow: hidden;
+  margin: 50px auto;
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: lighter;
 }
 
-/* Container for the two columns */
+/* Left section with background image and overlay elements */
 .ai-columns-wrapper > .ai-columns > div {
   display: flex;
-  flex-direction: row; /* Ensure elements are side by side */
-  gap: 20px; /* Space between columns */
+  flex-direction: row;
+  gap: 30px;
+  flex: 1;
 }
 
-/* Left section styling */
 .ai-columns-wrapper > .ai-columns > div > div:first-child {
   position: relative;
-  background-image: url('./media_16a737a0eaa91b53cd766644f7504daea2b69463b.jpeg?width=2000&format=webply&optimize=medium');
+  background-image: url('https://ndbf.nebraska.gov/sites/default/files/styles/main_large__slideshow_image_style/public/img/NDBF%20Reaccreditation%20Award%20-%20Jan%202025.jpg?itok=gKg1QuyZ');
   background-size: cover;
-  background-position: center;
   color: white;
   padding: 20px;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 400px; /* Adjust height as needed */
+  flex: 1;
 }
 
-/* Title and date at the top */
-#block-settlement {
-  font-size: 1.8rem;
-  margin: 0;
-  font-weight: normal; /* Adjust font weight */
-}
-#january-15-2025 {
-  font-size: 1.3rem;
-  margin: 0;
-  font-weight: normal; /* Adjust font weight */
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) {
+    position: relative;
+    background-image: url('./media_16a737a0eaa91b53cd766644f7504daea2b69463b.jpeg?width=2000&format=webply&optimize=medium');
+    background-size: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 225px; /* Adjust height as needed */
+    max-width: 400px;
+    flex: 1;
 }
 
-/* Overlay for the bottom section */
-.ai-columns-wrapper > .ai-columns > div > div:first-child ul {
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
-  padding: 10px;
-  list-style: none;
-  margin: 0;
+.ai-columns-wrapper > .ai-columns > div > div:first-child #ndbf-re-accreditation-award,
+.ai-columns-wrapper > .ai-columns > div > div:first-child #january-30-2025 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: rgba(0,96,125,0.8); /* Semi-transparent background */
   color: white;
+  padding: 10px 20px;
+  margin: 0;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:first-child #ndbf-re-accreditation-award {
+  top: 0px;
+  font-size: 36px;
+}
+
+.ai-columns-wrapper > .ai-columns > div #edward-jones-settlement {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(0,96,125,0.8); /* Semi-transparent background */
+    color: #00607D;
+    padding: 10px 20px;
+    margin: 0;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:first-child #january-30-2025 {
+  font-size: 22px;
+  top: 65px;
+  padding-top: 0;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:first-child ul {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  padding: 10px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+  height: 90px;
+  width: 97.3%;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:first-child ul li {
+  flex: 1; /* Ensure items take equal space */
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:first-child ul li a {
-  color: var(--link-color);
+  color: white;
 }
 
-.ai-columns-wrapper > .ai-columns > div > div:first-child ul li a:hover {
-  color: var(--link-hover-color);
+.ai-columns-wrapper > .ai-columns > div > div:first-child ul li:last-child {
+  text-align: right; /* Ensure alignment to the right */
+  bottom: 25px;
+  right: 5px;
+  position: relative;
 }
 
-/* Right section styling */
+/* Adjust the right section layout */
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -68,33 +122,76 @@
   flex: 1;
 }
 
-/* Styling for the image and text in the right section */
+/* Ensure proper layout for the small image and colored blocks in the right section */
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul {
   list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0.5px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
   margin: 0;
-  padding: 0;
+  width: 95%;
 }
 
 .ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li {
-  margin-bottom: 10px;
+  padding-top: 5px;
 }
 
-/* Individual buttons styling */
-#request-aspeakerfrombanking-finance, #meet-ourstaff, #join-ourteam {
-  text-align: center;
-  padding: 20px;
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) ul li a {
   color: white;
-  font-size: 1rem; /* Adjust font size */
+  text-align: right; /* Ensure alignment to the right */
+  bottom: 15px;
+  position: absolute;
+  right: 10px;
 }
 
-#request-aspeakerfrombanking-finance {
-  background-color: #b30047; /* Magenta */
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) .button-container > .button {
+  color: white;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  border-radius: unset;
+  text-align: center;
+  max-width: unset;
+  white-space: unset;
+  justify-content: center;
 }
 
-#meet-ourstaff {
-  background-color: #c4d600; /* Lime green */
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: unset;
+    position: relative;
+    top: 225px;
 }
 
-#join-ourteam {
-  background-color: #a1c4d0; /* Light blue */
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:first-child a {
+    grid-row: span 2;
+    background-color: #B92355;
+    height: 200px;
+    padding: 0.6em;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:nth-child(2) a {
+    background-color: #B9BE40;
+    height: 80px;
+    padding: 0.3em;
+}
+
+.ai-columns-wrapper > .ai-columns > div > div:nth-child(2) > .button-wrapper p:last-child a {
+    background-color: #B8C7D3;
+    height: 80px;
+    width: 185px;
+    position: absolute;
+    top: 125px;
+    right: 0px;
+    padding: 0.3em;
+
 }

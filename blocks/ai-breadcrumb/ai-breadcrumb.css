@@ -1,0 +1,71 @@
+
+/* Apply styles to the top-level wrapper */
+.ai-breadcrumb-wrapper {
+  background-color: #edf3f7; /* Light grey background color */
+}
+
+/* Apply styles to the breadcrumb block */
+.ai-breadcrumb {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    width: 1560px;
+
+}
+
+/* Apply styles to the inner divs to ensure they are side by side */
+.ai-breadcrumb > div {
+  display: flex; /* Use flexbox to align items horizontally */
+  flex-direction: row; /* Ensure items are aligned side by side */
+  align-items: center; /* Vertically center the items */
+}
+
+/* Style for the ordered list to make items inline */
+.ai-breadcrumb ol {
+  display: flex; /* Use flexbox to align list items horizontally */
+  flex-direction: row; /* Ensure items are aligned side by side */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  font-size: 14px;
+}
+
+/* Style for the list items */
+.ai-breadcrumb ol li {
+  margin-right: 2px; /* Further reduce spacing between items */
+  color: #4a4a4a; /* Adjust text color */
+  font-weight: 400; /* Adjust font weight */
+  display: flex; /* Ensure items are aligned side by side */
+  align-items: center; /* Vertically center the items */
+}
+
+/* Style for the link inside the list item */
+.ai-breadcrumb ol li a {
+  color: #004c63;/* Adjust link color to match original */
+  text-decoration: none; /* Remove underline */
+  display: flex; /* Ensure items are aligned side by side */
+  align-items: center; /* Vertically center the items */
+
+}
+
+/* Style for the separator */
+.ai-breadcrumb ol li::after {
+  content: "/"; /* Add a forward slash separator */
+  color: #777;/* Separator color */
+  display: flex; /* Ensure items are aligned side by side */
+  align-items: center; /* Vertically center the items */
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.ai-breadcrumb ol li:last-child {
+    color: #777;
+}
+
+/* Remove separator from the last list item */
+.ai-breadcrumb ol li:last-child::after {
+  content: ""; /* Remove separator */
+  color: #777;
+}

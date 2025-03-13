@@ -1,18 +1,24 @@
+.ai-cards-1-wrapper {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 
+}
 .ai-cards-1-wrapper .ai-cards-1 > ul {
   display: flex; /* Use flexbox to align cards side by side */
   justify-content: space-between; /* Space between cards */
-  padding: 0; /* Remove padding */
   list-style: none; /* Remove default list styling */
   margin: 0; /* Remove margin */
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
 }
-
 .ai-cards-1-wrapper .ai-cards-1 > ul > li {
   background-color: #005f73; /* Teal background color */
   border: none; /* Remove border */
   border-radius: 8px; /* Rounded corners */
   flex: 1; /* Allow cards to grow and shrink equally */
-  margin: 0 10px; /* Adjust for spacing between cards */
+  margin: 0 75px; /* Adjust for spacing between cards */
   display: flex;
   flex-direction: column; /* Stack elements vertically */
   align-items: center;
@@ -54,6 +60,7 @@
   flex-direction: column; /* Stack elements vertically */
   align-items: center;
   justify-content: center;
+  padding: 0 80px;
 }
 
 .ai-cards-1-wrapper .ai-cards-1 .ai-cards-1-card-body ul li::before,
@@ -81,4 +88,5 @@
   object-fit: contain; /* Maintain aspect ratio */
   margin: 0 auto; /* Center image */
   display: block; /* Block element */
+  opacity: .7;
 }

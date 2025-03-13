@@ -15,4 +15,29 @@ export default function decorate(block) {
   ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   block.textContent = '';
   block.append(ul);
+
+  document.querySelectorAll(".ai-cards-1 ul li").forEach(li => {
+    const link = li.querySelector(".ai-cards-1-card-body a");
+    if (link) {
+      const url = link.href;
+      const wrapper = document.createElement("a");
+      wrapper.href = url;
+      wrapper.style.textDecoration = "none";
+      wrapper.style.color = "inherit";
+      wrapper.style.width = "100%";
+
+      while (li.firstChild) {
+        wrapper.appendChild(li.firstChild);
+      }
+      li.appendChild(wrapper);
+    }
+
+    const ahref = li.querySelector(".ai-cards-1-card-body a");
+    const title = ahref.getAttribute("title")
+    ahref.remove();
+
+    const p = li.querySelector(".ai-cards-1-card-body p");
+    p.textContent = title;
+
+  });
 }

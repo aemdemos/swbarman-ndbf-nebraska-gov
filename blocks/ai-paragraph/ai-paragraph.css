@@ -1,0 +1,55 @@
+
+.ai-paragraph-wrapper .ai-paragraph {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    width: 1560px;
+    font-family: "Roboto", ultra-light !important;
+    font-size: 16px
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p {
+  margin: 0 0 8px 0; /* Add spacing between paragraphs */
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:first-child::after {
+    content: ":"
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:first-child {
+  font-weight: bold;
+  display: inline-block; /* Display inline-block to stay on the same line */
+  margin-right: 4px; /* Add spacing between "Publication Date" and the date */
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(2) {
+  display: inline-block; /* Display inline-block to stay on the same line */
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(4) {
+  display: flex;
+  align-items: center;
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(4) a {
+  margin-right: 8px; /* Add spacing between the link and the text */
+  color: #337ab7;
+  text-decoration: none; /* Remove underline from link */
+  font-weight: bold;
+}
+
+.ai-paragraph-wrapper .ai-paragraph > div > div > p:nth-child(4)::before {
+  content: '';
+  display: inline-block;
+  width: 24px; /* Adjust the size of the icon */
+  height: 24px;
+  color: #337ab7;
+  font-family: "Glyphicons Halflings";
+  content: "\e022";
+  font-style: normal;
+  font-weight: 400;
+  background-size: contain;
+  margin-right: 2px; /* Add spacing between the icon and the link text */
+}

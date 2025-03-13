@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Ensure it takes full viewport height */
     background-color: #eaf0f4; /* Light grey/blue background */
     padding: 0; /* No padding around the block */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+
 }
 
 .ai-button {
@@ -15,6 +15,7 @@
     align-items: center;
     width: 100%;
     text-align: center;
+    padding: 60px 0 30px;
 }
 
 .ai-button > div {
@@ -37,13 +38,15 @@
 }
 
 .ai-button .button-container .button {
-    background-color: #005f73; /* Button color */
+    background-color: #00607D; /* Button color */
     color: white; /* Text color */
-    padding: 10px 20px; /* Adjusted padding for the button */
+    padding: 10px 15px;
     border: none; /* Remove default border */
-    border-radius: 20px; /* Rounded corners */
     font-size: 16px; /* Font size */
     text-align: center; /* Center text */
     cursor: pointer; /* Cursor changes to pointer on hover */
     text-decoration: none; /* Remove underline from link */
+    font-family: "Montserrat", sans-serif !important;
+    border-radius: 15px;
+    -webkit-transition: .35s ease-in-out all;
 }

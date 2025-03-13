@@ -1,29 +1,29 @@
 
 .ai-cards-wrapper > .ai-cards {
-    background-color: #f8e4c6; /* Light beige background */
-    padding: 20px; /* Optional padding around the entire block */
+    background: #feedc7;
+    padding: 40px 400px; /* Optional padding around the entire block */
 }
 
 .ai-cards > ul {
     display: flex;
-    justify-content: space-between; /* Ensures even spacing between the cards */
-    list-style: none; /* Remove default list styling */
     padding: 0; /* Remove default padding */
     margin: 0; /* Remove default margin */
+    justify-content: center;
+    align-items: center;
 }
 
 .ai-cards > ul > li {
     border: 2px solid #f7b74d; /* Border color matching the icon color */
     background-color: #ffffff; /* Ensure background color is white for the cards */
-    padding: 20px; /* Internal padding within each card */
+    padding: 30px; /* Internal padding within each card */
     text-align: center; /* Center-aligns the content within each card */
     flex: 1; /* Ensures the cards take equal width */
-    margin: 0 10px; /* Adds horizontal space between cards */
+    margin: 0 15px; /* Adds horizontal space between cards */
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center-aligns the items */
     justify-content: flex-start; /* Align items to the start vertically */
-    max-width: calc(25% - 20px); /* Ensure each card takes up equal space */
+    border-radius: 7px;
 }
 
 .ai-cards-card-image {
@@ -37,8 +37,8 @@
 
 .ai-cards .ai-cards-card-body h2 {
     color: #006778; /* Blue-green text color */
-    font-size: 16px; /* Adjusted font size for better readability */
-    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 24px; /* Adjusted font size for better readability */
+    font-family: Montserrat, sans-serif; /* Example font family */
     margin: 0; /* Remove default margin */
     line-height: 1.5; /* Adjust line height for better readability */
     white-space: nowrap; /* Prevent text wrapping */
