@@ -1,0 +1,332 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+          "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+          "uuid": "0ef2e80b-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/careers",
+          "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+          "uuid": "6ca3e20d-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/ndbf-team",
+          "urlHash": "87520d202beac493b929d06123513059a9567f56",
+          "uuid": "87520d20-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/about",
+          "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+          "uuid": "aaf42b61-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+          "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+          "uuid": "0ef2e80b-08-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-07-c9894c241b07966ca13172d84b80464d5bfc3e81",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/careers",
+          "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+          "uuid": "6ca3e20d-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/ndbf-team",
+          "urlHash": "87520d202beac493b929d06123513059a9567f56",
+          "uuid": "87520d20-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/about",
+          "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+          "uuid": "aaf42b61-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "unknown",
+      "cluster": 1,
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+          "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+          "uuid": "0ef2e80b-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/careers",
+          "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+          "uuid": "6ca3e20d-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/ndbf-team",
+          "urlHash": "87520d202beac493b929d06123513059a9567f56",
+          "uuid": "87520d20-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/about",
+          "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+          "uuid": "aaf42b61-00-8b843b6e4e039a4266a94f9c3b7c630eefd81f74",
+          "xpath": "/html[1]/body[1]/div[1]/nav[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (three columns)",
+      "cluster": 2,
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+          "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+          "uuid": "0ef2e80b-08-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-07-c9894c241b07966ca13172d84b80464d5bfc3e81",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/careers",
+          "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+          "uuid": "6ca3e20d-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/ndbf-team",
+          "urlHash": "87520d202beac493b929d06123513059a9567f56",
+          "uuid": "87520d20-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        },
+        {
+          "url": "https://ndbf.nebraska.gov/about",
+          "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+          "uuid": "aaf42b61-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (two columns)",
+      "cluster": 4,
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+          "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+          "uuid": "0ef2e80b-05-45cea2ba86a2a0beab045190abb693ba06200550",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/section[1]/div[1]/article[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (two columns)",
+      "cluster": 5,
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (three columns)",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-02-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns (three columns)",
+      "cluster": 7,
+      "instances": [
+        {
+          "url": "https://ndbf.nebraska.gov/",
+          "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+          "uuid": "4549c6de-01-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+      "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+      "uuid": "0ef2e80b-01-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+      "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+      "uuid": "0ef2e80b-02-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+      "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+      "uuid": "0ef2e80b-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+      "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+      "uuid": "0ef2e80b-04-08f65336e29551588d186773f6e95adce6dd3399",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/section[1]/div[1]/article[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+      "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+      "uuid": "0ef2e80b-06-57de0596e9c35052c66e80ff245a4cd1ea055864",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/section[1]/div[1]/article[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
+      "urlHash": "0ef2e80be6548c4dbd4c4163262ca3e65fe1ce61",
+      "uuid": "0ef2e80b-07-47a784e9fff96790e5d7dc7e04c2db7a84803346",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/section[1]/div[1]/article[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/",
+      "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+      "uuid": "4549c6de-04-e5c971916a6909419b5a081423608605a5614bfa",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/",
+      "urlHash": "4549c6de2403bc7efdf7a4dc149101e6e3c65ccb",
+      "uuid": "4549c6de-06-7e9139b6c846235a13fac9d91747da0ff3a91319",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[6]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/careers",
+      "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+      "uuid": "6ca3e20d-01-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/careers",
+      "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+      "uuid": "6ca3e20d-02-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/careers",
+      "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+      "uuid": "6ca3e20d-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/careers",
+      "urlHash": "6ca3e20d1c1cfe22af9f1db1148312ec6ac6cf29",
+      "uuid": "6ca3e20d-04-e5c971916a6909419b5a081423608605a5614bfa",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/ndbf-team",
+      "urlHash": "87520d202beac493b929d06123513059a9567f56",
+      "uuid": "87520d20-01-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/ndbf-team",
+      "urlHash": "87520d202beac493b929d06123513059a9567f56",
+      "uuid": "87520d20-02-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/ndbf-team",
+      "urlHash": "87520d202beac493b929d06123513059a9567f56",
+      "uuid": "87520d20-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/ndbf-team",
+      "urlHash": "87520d202beac493b929d06123513059a9567f56",
+      "uuid": "87520d20-04-e5c971916a6909419b5a081423608605a5614bfa",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about",
+      "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+      "uuid": "aaf42b61-01-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about",
+      "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+      "uuid": "aaf42b61-02-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about",
+      "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+      "uuid": "aaf42b61-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]"
+    },
+    {
+      "url": "https://ndbf.nebraska.gov/about",
+      "urlHash": "aaf42b613465dc6e6af70a0aa8afe66d0a902a4c",
+      "uuid": "aaf42b61-04-e5c971916a6909419b5a081423608605a5614bfa",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]"
+    }
+  ]
+}
