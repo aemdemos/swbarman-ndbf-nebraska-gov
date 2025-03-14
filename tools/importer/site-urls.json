@@ -8,18 +8,6 @@
     {
       "url": "https://ndbf.nebraska.gov/about",
       "source": "CRAWL"
-    },
-    {
-      "url": "https://ndbf.nebraska.gov/about/about-ndbf",
-      "source": "CRAWL"
-    },
-    {
-      "url": "https://ndbf.nebraska.gov/ndbf-team",
-      "source": "CRAWL"
-    },
-    {
-      "url": "https://ndbf.nebraska.gov/careers",
-      "source": "CRAWL"
     }
   ]
 }
