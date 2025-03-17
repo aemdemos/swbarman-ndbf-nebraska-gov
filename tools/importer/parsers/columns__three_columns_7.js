@@ -1,37 +1,68 @@
 export default function parse(element, {document}) {
-  const createTable = WebImporter.DOMUtils.createTable;
+  // Extract content dynamically from the element
+  const columns = [];
+  const listItems = element.querySelectorAll("ul > li");
 
-  // Extract relevant data dynamically
-  const items = element.querySelectorAll('ul > li');
+  listItems.forEach((item) => {
+    const titleElement = item.querySelector(".views-field-title .field-content");
+    const dateElement = item.querySelector(".views-field-field-news-release-date .field-content");
+    const imageElement = item.querySelector(".views-field-field-add-image-1 img");
+    const bodyElement = item.querySelector(".views-field-field-publication-body .field-content");
+    const linkElement = item.querySelector(".views-field-view-node a");
 
-  const headerRow = [document.createElement('strong')];
-  headerRow[0].textContent = 'Columns';
+    const columnContent = [];
 
-  const rows = Array.from(items).map((item) => {
-    const titleElement = item.querySelector('.views-field-title .field-content');
-    const title = document.createElement('h2');
-    title.textContent = titleElement ? titleElement.textContent.trim() : 'Missing Title';
+    // Extract and organize content for each column
+    if (titleElement) {
+      const title = document.createElement("h2");
+      title.textContent = titleElement.textContent.trim();
+      columnContent.push(title);
+    }
 
-    const imageElement = item.querySelector('.views-field-field-add-image-1 img');
-    const image = document.createElement('img');
-    image.src = imageElement ? imageElement.src : '';
-    image.alt = imageElement ? imageElement.alt || 'Image Missing Alt' : 'Missing Image';
+    if (dateElement) {
+      const date = document.createElement("p");
+      date.textContent = dateElement.textContent.trim();
+      columnContent.push(date);
+    }
 
-    const bodyElement = item.querySelector('.views-field-field-publication-body .field-content');
-    const bodyText = bodyElement ? bodyElement.textContent.trim() : 'No Description Available';
-    const descriptionNode = document.createTextNode(bodyText);
+    if (imageElement) {
+      const image = document.createElement("img");
+      image.src = imageElement.src;
+      image.alt = imageElement.alt;
+      image.width = imageElement.width;
+      image.height = imageElement.height;
+      columnContent.push(image);
+    }
 
-    return [image, title, descriptionNode];
+    if (bodyElement) {
+      const body = document.createElement("div");
+      body.innerHTML = bodyElement.innerHTML.trim();
+      columnContent.push(body);
+    }
+
+    if (linkElement) {
+      const link = document.createElement("a");
+      link.href = linkElement.href;
+      link.textContent = linkElement.textContent.trim();
+      columnContent.push(link);
+    }
+
+    columns.push(columnContent);
   });
 
+  // Create header row
+  const headerRow = [document.createElement("strong")];
+  headerRow[0].textContent = "Columns";
+
+  // Assemble cells for the table
   const cells = [
     headerRow,
-    rows
+    columns
   ];
 
-  // Create table block
-  const blockTable = createTable(cells, document);
+  // Create the table block
+  const block = WebImporter.DOMUtils.createTable(cells, document);
 
-  // Replace the original element
-  element.replaceWith(blockTable);
+  // Replace the original element with the new block
+  element.replaceWith(block);
 }
