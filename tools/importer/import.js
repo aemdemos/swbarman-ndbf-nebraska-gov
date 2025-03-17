@@ -23,10 +23,7 @@
 /* global window, WebImporter, XPathResult */
 /* eslint-disable no-console */
 import columns__three_columns_2Parser from './parsers/columns__three_columns_2.js';
-import hero3Parser from './parsers/hero3.js';
 import columns__two_columns_4Parser from './parsers/columns__two_columns_4.js';
-import columns__two_columns_5Parser from './parsers/columns__two_columns_5.js';
-import columns__three_columns_6Parser from './parsers/columns__three_columns_6.js';
 import columns__three_columns_7Parser from './parsers/columns__three_columns_7.js';
 
 WebImporter.Import = {
@@ -55,10 +52,7 @@ WebImporter.Import = {
 
 const parsers = {
       'Columns (three columns) 2': columns__three_columns_2Parser,
-    'Hero 3': hero3Parser,
     'Columns (two columns) 4': columns__two_columns_4Parser,
-    'Columns (two columns) 5': columns__two_columns_5Parser,
-    'Columns (three columns) 6': columns__three_columns_6Parser,
     'Columns (three columns) 7': columns__three_columns_7Parser,
 };
 
@@ -120,16 +114,21 @@ function transformPage(main, { inventory: { fragments = [], blocks = [] }, ...so
 * Fragment transformation function
 */
 function transformFragment(main, { fragment, inventory, ...source }) {
-  const { document } = source;
+  const { document, params: { originalURL } } = source;
 
   (fragment.instances || [])
+    .filter(({ url }) => `${url}?frag=${fragment.name}` === originalURL)
     .map(({ xpath }) => ({ xpath, element: WebImporter.Import.getElementByXPath(document, xpath) }))
     .filter(({ element }) => element)
     .forEach(({ xpath, element }) => {
+      main.append(element);
+
       const fragmentBlock = inventory.blocks
         .find(
-          ({ instances }) => instances.find(({ xpath: blockXpath }) => blockXpath === xpath),
+          ({ instances }) => instances
+            .find(({ url, xpath: blockXpath }) => `${url}?frag=${fragment.name}` === originalURL && blockXpath === xpath),
         );
+
       if (!fragmentBlock) return;
       const { name, cluster } = fragmentBlock;
       const parserFn = parsers[`${name} ${cluster}`];
@@ -140,8 +139,6 @@ function transformFragment(main, { fragment, inventory, ...source }) {
       } catch (e) {
         console.warn(`Failed to parse block: ${name} from cluster: ${cluster} with xpath: ${xpath}`, e);
       }
-
-      main.append(element);
     });
 }
 
@@ -155,15 +152,16 @@ export default {
     source.params.originalURL = sanitizedOriginalURL;
 
     // fetch the inventory
-    const publishUrl = 'https://main--swbarman-ndbf-nebraska-gov--aemdemos.aem.page/';
+    const publishUrl = 'https://issue-40--swbarman-ndbf-nebraska-gov--aemdemos.aem.page';
 
+    /* eslint-disable-next-line no-undef */
     const inventoryUrl = new URL('/tools/importer/inventory.json', publishUrl);
     let inventory = null;
     try {
       const inventoryResp = await fetch(inventoryUrl.href);
       inventory = await inventoryResp.json();
     } catch (e) {
-      const inventoryResp = await fetch(`${window.location.origin}/tools/importer/inventory.json?host=${encodeURIComponent(new URL(publishUrl).origin)}`);
+      const inventoryResp = await fetch(`${window.location.origin}/tools/importer/inventory.json`);
       inventory = await inventoryResp.json();
     }
 

@@ -1,56 +1,60 @@
 export default function parse(element, {document}) {
-  const createTable = WebImporter.DOMUtils.createTable;
+  const headerRow = [document.createElement('strong')];
+  headerRow[0].textContent = 'Columns';
 
-  // Helper to create header row
-  const headerCell = document.createElement('strong');
-  headerCell.textContent = 'Columns';
-  const headerRow = [headerCell];
+  const firstColumn = [];
+  const logoContainer = element.querySelector('.ndbf-logo-footer img');
+  if (logoContainer) {
+    firstColumn.push(logoContainer.cloneNode(true));
+  }
 
-  const cells = [];
+  const address = element.querySelector('.logo-text');
+  if (address) {
+    const addressLines = address.innerHTML.split('<br>').map(line => {
+      const addressLineElement = document.createElement('p');
+      addressLineElement.textContent = line.trim();
+      return addressLineElement;
+    });
+    firstColumn.push(...addressLines);
+  }
 
-  // Extract content for Logo section
-  const logoSection = element.querySelector('.ndbf-logo-footer');
-  const logoContent = logoSection ? logoSection.cloneNode(true) : '';
+  const badgesContainer = element.querySelector('.region .field--item');
+  if (badgesContainer) {
+    const badges = badgesContainer.querySelectorAll('img');
+    badges.forEach((badge) => {
+      firstColumn.push(badge.cloneNode(true));
+    });
+  }
 
-  const addressSection = element.querySelector('.logo-text');
-  const addressContent = addressSection ? addressSection.cloneNode(true) : '';
+  const secondColumn = [];
+  const contactHeader = element.querySelector('.footer-title h4 a');
+  if (contactHeader) {
+    secondColumn.push(contactHeader.cloneNode(true));
+  }
 
-  cells.push([logoContent, addressContent]);
+  const contactDetails = element.querySelectorAll('.footer-text ul li');
+  if (contactDetails.length > 0) {
+    const contactList = document.createElement('ul');
+    contactDetails.forEach((detail) => {
+      contactList.appendChild(detail.cloneNode(true));
+    });
+    secondColumn.push(contactList);
+  }
 
-  // Extract content for Contact section
-  const contactSection = element.querySelector('.footer-text:nth-of-type(2) ul');
-  const contactContent = contactSection ? contactSection.cloneNode(true) : '';
+  const thirdColumn = [];
+  const navigationColumns = element.querySelectorAll('.list-columns');
+  navigationColumns.forEach((column) => {
+    const links = column.querySelectorAll('a');
+    links.forEach((link) => {
+      thirdColumn.push(link.cloneNode(true));
+    });
+  });
 
-  cells.push(['CONTACT', contactContent]);
+  const cells = [
+    headerRow,
+    [firstColumn, secondColumn, thirdColumn]
+  ];
 
-  // Extract content for Navigation section
-  const navColumn1 = element.querySelector('.list-columns');
-  const navColumn2 = element.querySelector('.list-column-two');
-
-  const navColumn1Content = navColumn1 ? navColumn1.cloneNode(true) : '';
-  const navColumn2Content = navColumn2 ? navColumn2.cloneNode(true) : '';
-
-  cells.push(['NAVIGATION', navColumn1Content, navColumn2Content]);
-
-  // Extract content for Footer Logo section
-  const footerLogoSection = element.querySelector('.official-logo');
-  const footerLogoContent = footerLogoSection ? footerLogoSection.cloneNode(true) : '';
-
-  const poweredBySection = element.querySelector('.ni-footer p');
-  const poweredByContent = poweredBySection ? poweredBySection.cloneNode(true) : '';
-
-  cells.push([footerLogoContent, poweredByContent]);
-
-  // Extract content for Bottom footer section
-  const bottomFooterSection = element.querySelector('.bottom-footer-text ul');
-  const bottomFooterContent = bottomFooterSection ? bottomFooterSection.cloneNode(true) : '';
-
-  cells.push(['', bottomFooterContent]);
-
-  // Combine header and data rows into table data
-  const tableData = [headerRow, ...cells];
-  const blockTable = createTable(tableData, document);
-
-  // Replace the original element with the parsed table
-  element.replaceWith(blockTable);
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(block);
 }

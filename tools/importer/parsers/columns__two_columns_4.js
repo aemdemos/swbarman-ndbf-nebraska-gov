@@ -1,51 +1,30 @@
 export default function parse(element, {document}) {
-  const leftColumn = element.querySelector('.col-xs-12.col-sm-6:nth-child(1)');
-  const rightColumn = element.querySelector('.col-xs-12.col-sm-6:nth-child(2)');
+  const leftColumn = element.querySelector('.field--name-field-left-column');
+  const rightColumn = element.querySelector('.field--name-field-right-column-side');
 
-  // Extract left column title and list items dynamically.
-  const leftTitle = leftColumn.querySelector('h3');
-  const leftListItems = Array.from(leftColumn.querySelectorAll('li')).map(item => item.cloneNode(true));
+  // Extract headers dynamically
+  const leftHeader = document.createElement('strong');
+  leftHeader.textContent = leftColumn?.querySelector('h3')?.textContent || "";
 
-  // Extract right column title and list items dynamically.
-  const rightTitle = rightColumn.querySelector('h3');
-  const rightListItems = Array.from(rightColumn.querySelectorAll('li')).map(item => item.cloneNode(true));
+  const leftList = leftColumn?.querySelector('ul') || document.createElement('ul');
 
-  const leftContent = [
-    (() => {
-      const titleElement = document.createElement('strong');
-      titleElement.textContent = leftTitle ? leftTitle.textContent : '';
-      return titleElement;
-    })(),
-    (() => {
-      const listWrapper = document.createElement('ul');
-      leftListItems.forEach(item => listWrapper.appendChild(item));
-      return listWrapper;
-    })()
-  ];
+  const rightHeader = document.createElement('strong');
+  rightHeader.textContent = rightColumn?.querySelector('h3')?.textContent || "";
 
-  const rightContent = [
-    (() => {
-      const titleElement = document.createElement('strong');
-      titleElement.textContent = rightTitle ? rightTitle.textContent : '';
-      return titleElement;
-    })(),
-    (() => {
-      const listWrapper = document.createElement('ul');
-      rightListItems.forEach(item => listWrapper.appendChild(item));
-      return listWrapper;
-    })()
-  ];
+  const rightList = rightColumn?.querySelector('ul') || document.createElement('ul');
 
+  // Create cells for block table
   const cells = [
-    [(() => {
-      const headerCell = document.createElement('strong');
-      headerCell.textContent = 'Columns';
-      return headerCell;
-    })()],
-    [leftContent, rightContent]
+    ['Columns'], // Header row following the example structure
+    [
+      [leftHeader, leftList],
+      [rightHeader, rightList],
+    ],
   ];
 
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Create the block table
+  const block = WebImporter.DOMUtils.createTable(cells, document);
 
-  element.replaceWith(table);
+  // Replace the original element with the new block table
+  element.replaceWith(block);
 }
